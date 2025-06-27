@@ -18,8 +18,3 @@ Security warning: This is not encryption.
 - **Disguised Output Formats**: Save keymaps as `.json`, `.csv`, `.conf` (INI-style), or `.log` files to obscure their purpose.
 - **Trust Pairing**: Optionally sign a keymap's payload with a passphrase-derived HMAC. This binds the keymap's integrity to the passphrase without encrypting it.
 - **Full Integrity Checking**: Verify reconstructed files against a stored SHA256/SHA512/MD5 hash of the original.
-
-## Installation
-
-```bash
-pip install -r requirements.txt
