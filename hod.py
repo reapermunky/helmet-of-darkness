@@ -7,7 +7,7 @@ import click
 
 # --- Dynamic Loading ---
 from strategies import STRATEGIES, load_strategies
-from formats import FORMATS, load_formats_by_name, load_formats_by_ext
+from formats import FORMATS, FORMATS_BY_EXT, load_formats_by_name, load_formats_by_ext
 
 # --- Utilities ---
 from utils.core import generate_bit_runs
