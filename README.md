@@ -4,7 +4,7 @@
 
 It works by analyzing the bit patterns in a file and converting them into a set of purely reconstructive instructions, called a "keymap". The original file data is annihilated; only the abstract representation of its structure remains. This keymap can then be used to perfectly reconstruct the original file.
 
-This v2.0 release is an attempt at a production-grade expansion with a pluggable architecture for encoding strategies and output formats.
+This v2.0 release is an attempt at an expansion with a pluggable architecture for encoding strategies and output formats.
 
 Security warning: This is not encryption.
 
